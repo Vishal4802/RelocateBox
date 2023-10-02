@@ -1,0 +1,322 @@
+.career-hero {
+    background-image: url('../images/packages.jpg');
+    position: relative;
+    z-index: -7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.career-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      hsl(0, 0%, 0%) 0%,
+      hsla(0, 0%, 0%, 0.964) 7.4%,
+      hsla(0, 0%, 0%, 0.918) 15.3%,
+      hsla(0, 0%, 0%, 0.862) 23.4%,
+      hsla(0, 0%, 0%, 0.799) 31.6%,
+      hsla(0, 0%, 0%, 0.73) 39.9%,
+      hsla(0, 0%, 0%, 0.655),
+      hsla(0, 0%, 0%, 0.577) 56.2%,
+      hsla(0, 0%, 0%, 0.497) 64%,
+      hsla(0, 0%, 0%, 0.417) 71.3%,
+      hsla(0, 0%, 0%, 0.337) 78.1%,
+      hsla(0, 0%, 0%, 0.259) 84.2%,
+      hsla(0, 0%, 0%, 0.186) 89.6%,
+      hsla(0, 0%, 0%, 0.117) 94.1%,
+      hsla(0, 0%, 0%, 0.054) 97.6%,
+      hsla(0, 0%, 0%, 0) 100%
+    );
+  }
+  
+
+.career-hero-text {
+    margin-left: 6rem;
+    width: 70%;
+    margin-top: 5rem;
+    color: #F1EFEF;
+    z-index: 7;
+}
+
+.career-hero-text h1 {
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.career-hero-text p {
+    margin: 2rem 0 4rem 0;
+    font-size: 1.2rem;
+    width: 80%;
+    color: #F1EFEF;
+    max-width: 60rem;
+    font-family: Roboto,sans-serif;
+}
+
+.company {
+    margin-top: 7rem;
+}
+.company > h2 {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #7D7C7C;
+}
+
+.company-meet {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.company-meet-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    align-items: center;
+}
+.company-meet img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.company-meet-text {
+    width: 100%;
+    color: #7D7C7C;
+    margin-right: 5rem;
+}
+
+.company-meet-text h2 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #595757;
+}
+
+.company-meet-text p {
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.perks {
+    margin-top: 10rem;
+    background-color: #E4E1D6;
+    padding-bottom: 10rem;
+}
+
+.perks h2 {
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    color: #595757;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.perks-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    height: 20vh;
+    align-items: center;
+}
+
+
+.perks img {
+    width: 4rem;
+    height: 4rem;
+    filter: invert(0%) sepia(2%) saturate(1000%) hue-rotate(90deg) brightness(20%) contrast(35%);
+}
+
+.perks h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 550;
+    padding-top: 1rem;
+}
+
+.firstDiv{
+    background-color: #F1EFEF;
+    padding: 2rem;
+    height: 12rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #7D7C7C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.join-us {
+    padding: 5rem;
+}
+
+.join-us h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #595757;
+}
+
+.join-us p{
+    font-family: Roboto, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #7D7C7C;
+}
+
+#p1 {
+    margin-bottom: 0;
+}
+
+#p2 {
+    margin-top: 0.5rem;
+}
+
+.join-us a {
+    color: #191717;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .career-hero {
+        height: 50vh;
+    }
+
+    .career-hero-text {
+        margin-left: 2rem;
+        margin-top: 3rem;
+        width: 80%;
+    }
+
+    .company-meet {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company-meet-img {
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding: 3rem;
+        width: 80%;
+    }
+
+    .company-meet-text {
+        margin-right: 0;
+    }
+
+    .company h2{
+        font-size: 3rem;
+        margin-left: 4rem;
+    }
+
+    .perks {
+        height: auto;
+    }
+
+    .perks h2 {
+        padding-left: 2rem;
+        font-size: 3rem;
+    }
+
+    .perks-grid {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .firstDiv {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .perks img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .perks h3{
+        font-size: 2rem;
+    }
+
+    .join-us {
+        padding: 2rem;
+    }
+
+    .join-us h2 {
+        font-size: 1.5rem;
+    }
+
+    .join-us p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .career-hero {
+        height: 40vh;
+    }
+
+    .career-hero-text {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+
+    .join-us h2 {
+        font-size: 1.2rem;
+    }
+
+    .join-us p {
+        font-size: 0.9rem;
+    }
+    .career-hero-text {
+        margin-top: 10rem;
+    }
+    .career-hero-text h1 {
+        font-size: 1.5rem;
+    }
+    .career-hero-text p {
+        font-size: 0.75rem;
+    }
+    .perks h2 {
+        font-size: 2rem;
+    }
+    .company h2 {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    .firstDiv {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .firstDiv h3 {
+        font-size: 1.25rem;
+        margin-left: 1rem;
+    }
+    .firstDiv img {
+        width: 5rem;
+        height: 5rem;
+    }
+}

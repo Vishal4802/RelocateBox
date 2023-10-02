@@ -1,0 +1,563 @@
+
+.hero {
+    background-image: url('../images/packages.jpg');
+    position: relative;
+    z-index: -7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      hsl(0, 0%, 0%) 0%,
+      hsla(0, 0%, 0%, 0.964) 7.4%,
+      hsla(0, 0%, 0%, 0.918) 15.3%,
+      hsla(0, 0%, 0%, 0.862) 23.4%,
+      hsla(0, 0%, 0%, 0.799) 31.6%,
+      hsla(0, 0%, 0%, 0.73) 39.9%,
+      hsla(0, 0%, 0%, 0.655),
+      hsla(0, 0%, 0%, 0.577) 56.2%,
+      hsla(0, 0%, 0%, 0.497) 64%,
+      hsla(0, 0%, 0%, 0.417) 71.3%,
+      hsla(0, 0%, 0%, 0.337) 78.1%,
+      hsla(0, 0%, 0%, 0.259) 84.2%,
+      hsla(0, 0%, 0%, 0.186) 89.6%,
+      hsla(0, 0%, 0%, 0.117) 94.1%,
+      hsla(0, 0%, 0%, 0.054) 97.6%,
+      hsla(0, 0%, 0%, 0) 100%
+    );
+  }
+  
+
+.hero-text {
+    margin-left: 6rem;
+    width: 70%;
+    margin-top: 5rem;
+    color: #F1EFEF;
+    z-index: 7;
+}
+
+.hero-text h1 {
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero-text p {
+    margin: 2rem 0 4rem 0;
+    font-size: 1.2rem;
+    width: 80%;
+    color: #F1EFEF;
+    max-width: 60rem;
+    font-family: Roboto,sans-serif;
+}
+
+#about {
+    background-color: transparent;
+    border: 2px solid #F1EFEF;
+    color: #F1EFEF;
+}
+
+.what-we-do {
+    z-index: 14;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80rem;
+    margin-left: 7rem;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+
+.card {
+    background: #CCC8AA;
+    width: 20rem;
+}
+
+.img-container {
+    margin-bottom: 1rem;
+}
+
+.img-container img {
+    padding: 1rem;
+    width: 18rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: #191717;
+    font-family :'Source Sans Pro',sans-serif;
+}
+  
+.card p {
+    padding-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 100;
+    font-family: Roboto,sans-serif;
+    color: #595757;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 5rem;
+}
+
+.story-text h2 {
+    font-family: 'Source Sans Pro',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #595757;
+    position: relative;
+}
+
+.story-text p {
+    color: #7D7C7C;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 500;
+    font-family: Roboto ,sans-serif;
+}
+
+.story-text a {
+    text-decoration: underline;
+    color: #191717;
+    font-weight: 500;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.story-image img {
+    width: 40rem;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.core-values {
+    z-index: 14;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100rem;
+    height: 30rem;
+    margin-top: 15rem;
+    margin-left: -15rem;
+    background-color: #CCC8AA;
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+}
+
+.core-values h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-left: 2rem;
+    width: 100%;
+    color: #191717;
+    margin-bottom: 0.75rem;
+}
+
+.core-values ul{
+    margin-top: 0px;
+}
+
+.core-values li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 550;
+    padding-left: 1rem;
+    padding: 1rem;
+    width: 100%;
+    color: #595757;
+}
+
+.achievements {
+    margin-top: 10rem;
+    background-color: #CCC8AA;
+    padding-bottom: 10rem;
+}
+
+.achievements h2 {
+    padding-top: 3rem;
+    padding-left: 5rem;
+    color: #191717;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.achievements-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    height: 30vh;
+    align-items: center;
+}
+
+
+.achievements img {
+    width: 5rem;
+    height: 5rem;
+    filter: invert(0%) sepia(2%) saturate(1000%) hue-rotate(90deg) brightness(20%) contrast(35%);
+}
+
+.achievements p {
+    margin-top: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.firstDiv{
+    background-color: #F1EFEF;
+    padding: 2rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    height: 10rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #7D7C7C;
+}
+
+.down {
+    margin-top: 10rem;
+}
+
+.booking {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
+  
+.booking div {
+    width: 50%;
+}
+
+.booking-text {
+    padding-left: 5rem;
+    color: #7D7C7C;
+}
+.booking-text p {
+    width: 75%;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.booking-text h2 {
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    color: #595757;
+}
+
+.booking-text li{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+    background-color: #CCC8AA;
+    padding: 3rem;
+    border: 0.2rem solid #CCC8AA;
+    height:35rem;
+    margin-top: 5rem;
+}
+
+
+.form input{
+    height: 3rem;
+    border-radius: 0.25rem;
+    padding-left: 1rem;
+    background-color: #F1EFEF;
+    color: #7D7C7C;
+    font-weight: 400;
+}
+
+#submit {
+    background-color: #191717;
+    color: #CCC8AA;
+}
+
+.book-button{
+    z-index: 1;
+    position: absolute;
+    left: 7rem;
+    bottom: 7rem;
+    background-color: #CCC8AA;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px #F1EFEF;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.book-button a {
+    text-decoration: none;
+    color: #191717;
+}
+.book-button a:hover {
+    color: #595757;
+}
+
+.about-button {
+    left: 20rem;
+    background-color: transparent;
+    border: 2px solid #F1EFEF;
+    box-shadow: 1px 1px #CCC8AA;
+}
+
+.about-button a {
+    color:#CCC8AA;;
+}
+
+@media (max-width: 1260px) {
+    .book-button {
+        width: 5rem;
+        height: 1.5rem;
+    }
+    .what-we-do {
+        flex-direction: column;
+        margin-left: 0;
+        width: auto;
+        box-shadow: 0px 0px;
+        margin-top: 0;
+        background-color: #CCC8AA;
+        padding-top: 3rem;
+    }
+    .what-we-do h3 {
+        margin: 0;
+    }
+    .card {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card p {
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
+    .img-container {
+        width: auto;
+    }
+    .img-container img {
+        width: 20rem;
+    }
+    .story {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .story-text,
+    .story-image {
+        width: 100%;
+    }
+
+    .story-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-image img {
+        width: 30rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .core-values {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+        padding-bottom: 0;
+    }
+    .core-values li {
+        text-align: start;
+    }
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+    }
+    
+    .achievements {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        height: auto;
+    }
+
+    .achievements-grid {
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+.down {
+    margin-top: 0;
+}
+
+    .firstDiv {
+        width: 10rem;
+        height: 12rem;
+        padding: 1rem;
+    }
+
+    .booking {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .booking div {
+        width: 100%;
+    }
+
+    .booking-text {
+        padding-left: 0rem;
+        text-align: center;
+        width: 100%;
+    }
+    .booking-text p{
+        padding-left: 3rem;
+        text-align: left;
+    }
+
+    .booking-text li {
+        text-align: left;
+    }
+
+    .form{
+        width: 78.5%;
+    }
+
+    .book-button {
+        bottom: 17rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 50vh;
+        
+    }
+
+    .hero-text {
+        margin-left: 3rem;
+    }
+
+    .hero-text h1 {
+        font-size: 1rem;
+        
+    }
+
+    .hero-text p {
+        font-size: 0.75rem;
+    }
+    .book-button {
+        bottom: 23rem;
+        width: 3rem;
+        font-size: 0.5rem;
+    }
+
+    .story-text h2 {
+        font-size: 2rem;
+    }
+
+    .story-text p {
+        font-size: 1rem;
+    }
+
+    .story-image img {
+        width: 10rem;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .book-button {
+        left: 3rem;
+    }
+
+    .about-button {
+        left: 10rem;
+    }
+
+    .core-values h3 {
+        font-size: 1.5rem;
+    }
+
+    .core-values li {
+        font-size: 0.65rem;
+    }
+
+    .firstDiv {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .booking-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .booking-text p {
+        font-size: 1rem;
+    }
+
+    .booking-text li {
+        font-size: 0.8rem;
+    }
+    .form {
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .what-we-do {
+        width: 100%;
+        margin-left: 0;
+        box-shadow: none;
+    }
+}

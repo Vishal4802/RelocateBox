@@ -1,0 +1,11 @@
+
+      Booking Details:
+
+      Name: Vishal Sharma
+      Email: f20190625@pilani.bits-pilani.ac.in
+      Pick Up Location: gurgaun
+      Drop Location: jhunjhunu
+      Budget: $10
+      
+      Have a nice Day :)
+    

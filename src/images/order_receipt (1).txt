@@ -1,0 +1,9 @@
+
+      Booking Details:
+      Name: Vishal Sharma
+      Email: vishal4802@gmail.com
+      Pick Up Location: gurgaun
+      Drop Location: jhunjhunu
+      Budget: $10
+      Have a nice Day :)
+    

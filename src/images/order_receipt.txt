@@ -1,0 +1,8 @@
+
+      Order Details:
+      Name: Hi
+      Email: vishal4802@gmail.com
+      Pick Up Location: gurgaun
+      Drop Location: jhunjhunu
+      Budget: 10
+    
